@@ -1,0 +1,2 @@
+#! /usr/bin/env bash
+cat ../docker/db-data/wordpress.sql | docker exec -i wp_db /usr/bin/mysql -u wordpress --password=wordpress wordpress
