@@ -1,5 +1,10 @@
 # Docker LEMP Stack
 
-- `localhost:8080` for nginx served files from public/
+## Setup
 
-- `localhostL:8181` for PHPMyAdmin. un: root, pw: somepassword
+- Run `docker-compose up`
+
+## Visit the homepage
+
+- `localhost:8080` for nginx served files from public/
+- `localhostL:8181` for PHPMyAdmin. Login as root and your specified password. Login as root, pw: somepassword. Configure in docker-compose.yml
