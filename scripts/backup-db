@@ -1,2 +1,2 @@
 #! /usr/bin/env bash
-docker exec wp_db /usr/bin/mysqldump -u wordpress --password=wordpress wordpress > ../docker/db-data/wordpress.sql
+docker exec wp_db /usr/bin/mysqldump -u wordpress --password=wordpress wordpress > ./docker/db-data/wordpress.sql
